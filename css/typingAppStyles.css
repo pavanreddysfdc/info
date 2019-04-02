@@ -1,0 +1,97 @@
+.background{
+    margin:0;
+    background-color:white;
+    background-image: url("../images/MainHomePage/background.jpg");
+}
+#main-div{
+    text-align: center;
+    margin-top:10px;
+}
+
+textarea{
+    box-shadow: 0 0 10px indigo;
+    border-radius: 15px;
+    padding:15px;
+    font-family: Arial,sans-serif;
+    border: none;
+}
+.textarea-div{
+    margin-top:15px;
+}
+
+
+#my-image{
+    margin-left: 10%;
+    text-align: center;
+}
+.col-sm-3{
+    margin: 10px;
+}
+.col-sm-2{
+    margin-top: 50px;
+}
+.col-sm-2 p{
+    font-family: Chiller;
+    font-size: 20px;
+    color: aliceblue;
+}
+#side a{
+    text-decoration: none;
+    margin-top: 10px;
+}
+form textarea{
+    width:90%;
+    height:250px;
+}
+.col-sm-3 a,.col-sm-3 a:hover{
+    text-decoration: none;
+    color:black;
+    padding: 5px;
+    margin:10px;
+}
+.col-sm-3 .row{
+    margin:10px;
+}
+h5{
+    color:darkgrey;
+    font-family: Chiller;
+}
+h1{
+    color: white;
+    font-family: Chiller;
+}
+
+#resume-button{
+    display:none;
+}
+h4{
+    color:white;
+    font-family: "Tempus Sans ITC";
+}
+#footer a{
+    display: block;
+    font-size: 14px;
+    color:whitesmoke;
+}
+#footer{
+    background-color: darkslategray;
+    padding:10px;
+}
+
+#footer a:hover{
+    color:cornsilk;
+    text-decoration: none;
+
+}
+
+#footer p{
+    font-size: 20px;
+    font-family: chiller;
+    color:whitesmoke;;
+}
+#footer h6{
+    color:navajowhite;
+}
+.row a{
+    text-decoration: none;
+}

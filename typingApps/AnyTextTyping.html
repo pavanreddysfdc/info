@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Text Typing Test</title>
+    <link rel="stylesheet" href="../css/typingAppStyles.css"/>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body class="background">
+<div align="center">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="row">
+                <div class="mt-4">
+                   <h4>My Profile</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div id="profile">
+                    <h5 class="text-center">Mukkara Pavan Kumar Reddy</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div id="my-image">
+                    <img src="../images/pavan.jpg" width="120px" height="120px" class="img-fluid rounded-circle"/>
+                </div>
+            </div>
+            <div class="row">
+                <div id="contact-me">
+                    <h5 class="text-left">contact me:</h5><p class="text-light text-left">Mobile: 8790030755<br/>Email: pavanreddy2693@gmail.com</p>
+                </div>
+            </div>
+            <div class="row">
+                <div id="follow-me">
+                    <h5 class="text-left">Follow me:</h5> <a href="https://www.facebook.com/pavankumarreddy.mukkara" class="btn-light" target="_blank">Facebook</a>
+                    <a href="https://api.whatsapp.com/send?phone=919739249781" target="_blank" class="btn-light">Whatsapp</a>
+                </div>
+            </div>
+            <hr/>
+            <div class="row">
+
+            </div>
+
+        </div>
+        <div id="main-div" class="col-sm-6">
+            <div>
+                <h1>Test Your Typing Skills</h1>
+            </div>
+            <form>
+                <div class="textarea-div">
+                    <textarea id="textEntered" style="height: 400px;"></textarea>
+                </div>
+                <div>
+                    <p id="congrats"></p>
+                </div>
+
+            </form>
+            <hr/>
+
+        </div>
+        <div class="col-sm-2" id="side">
+
+            <p><b>Time </b><span id="min">00</span> min <span id="sec">00 </span>sec <span id="typingSpeed"></span> </p>
+            <button id="finish-button" type="button" class="btn btn-block btn-light">Finish</button>
+            <button id="pause-button" type="button" class="btn btn-block btn-light">Pause</button>
+            <button id="resume-button" type="button" class="btn btn-block btn-light">Resume</button>
+            <button id="reset-button" type="button" class="btn btn-block btn-light">Reset</button>
+            <h5>Typing Speed:</h5>
+            <button id="wordsTypedButton" type="button" class="btn btn-block btn-light"><span id="wordsTyped">000</span> words</button>
+            <button id="typingspeed-button" type="button" class="btn btn-block btn-light"><span id="typing-speed">000</span> wpm</button>
+
+        </div>
+    </div>
+</div>
+<div class="row">
+
+    <div class="row col-sm-12" id="footer" style="margin-top: 15px;">
+        <div class="col-sm-4 text-left ml-5">
+            <h6>QuickLinks</h6>
+            <a href="../homepage.html">Home</a>
+            <a href="https://pavanreddysfdc.github.io">Online Resume</a>
+            <a href="OtherPages/Gallery.html">Gallery</a>
+            <a href="OtherPages/ContactUs.html">Contact Us</a>
+        </div>
+        <div class="col-sm-5">
+            <h6>Designed And Developed By</h6>
+            <p>M.Pavan Kumar Reddy</p>
+            <p> &copy;All Rights Reserved.</p>
+
+        </div>
+    </div>
+</div>
+<script src="../typingAppScript/RandomTextTyping.js"></script>
+</body>
+</html>
