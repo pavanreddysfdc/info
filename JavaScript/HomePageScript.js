@@ -1,22 +1,3 @@
-let Cntr=1
-
-
-function timer() {
-
-    if (Cntr===1) {
-        setInterval(timer, 2500);
-        document.querySelector('#myimage').style.display="block";
-        document.querySelector('#welcomeText').style.display="block";
-        document.querySelector('#maincontent').style.display="none";
-        Cntr++;
-    }
-    else{
-        document.querySelector('#welcomeText').style.display="none";
-        document.querySelector('#myimage').style.display="none";
-        document.querySelector('#maincontent').style.display="block";
-    }
-}
-
 /* Make carousel appear and disapper in gallery page*/
 
 let playslideshowBtn = document.querySelector('#playSlideShow');
