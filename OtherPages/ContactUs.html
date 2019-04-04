@@ -14,15 +14,31 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/Styles.css">
+    <link rel="stylesheet" href="../css/mdb.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/Styles.css">
+    <link rel="stylesheet" href="../css/font-awesome.css">
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+        a{
+            display: block;
+            font-size:16px;
+            color:#0f6674;
+        }
+        .col-sm-5{
+            border-left: 2px solid black;
+        }
+    </style>
 </head>
 <body>
-<div align="center">
+<!--<div align="center">
 <div class="row">
 <div id="contact" align="center" class="text-left" style="width:350px;">
 
-    <div class="card p-2 col-sm-12 " id="contactcard">
-        <img src="../images/MainHomePage/background.jpg" class="card-top" height="200">
+    <div class="card p-2  " id="contactcard">
+        <img src="../images/MainHomePage/background.jpg" class="col-sm-3 card-top" height="200">
         <h4 class="card-title m-2">Contact US:</h4>
         <div class="m-4">
              <p class="card-text text-muted ">Mobile:8790030755</p>
@@ -34,7 +50,45 @@
         </div>
         </div>
 </div>
-</div>
+</div>-->
+
+<div align="center">
+<div class="row mt-2 text-left">
+
+    <div class="card col-sm-12 bg-info text-white">
+        <h4 class="card-header ">My Profile</h4>
+        <div class="card-body col-sm-12">
+
+            <h5 class="card-title">Mukkara Pavan Kumar Reddy</h5>
+            <img src="../images/pavan.jpg" class=" rounded-circle" width="250px" height="250px">
+                <p>2017 graduate from Sree Vidyanikethan Engineering College, Tirupathi</p>
+                <ul>
+                    <li class="text-dark text-justify">Certified as Responsive Web Design developer by freeCodeCamp</li>
+                    <li class="text-dark text-justify">Trained as a front-end develper and having hands on experience on HTML, CSS, JAVASCRIPT, BOOTSTRAP</li>
+                    <li class="text-dark text-justify">Trained in salesforce.com CRM and having sound knowledge on Salesforce Admin concepts.</li>
+
+                </ul>
+            <div class="row col-sm-12 m-0">
+                <p class="col-sm-12">You can join me on chat or contact using</p>
+            <div class="col-sm-7">
+
+                    <a class="text-dark" href="#">Mobile: 8790030755</a>
+                    <a href="mailto:pavanreddy2693@gmail.com" class="text-dark">pavanreddy2693@gmail.com</a>
+                    <a href="mailto:mukkarasfdc@gmail.com" class="text-dark">mukkarasfdc@gmail.com</a>
+
+            </div>
+            <div class="col-sm-5">
+                <a href="https://api.whatsapp.com/send?phone=919739249781" target="_blank" class="text-dark">WhatsApp</a>
+                <a href="https://t.me/Pavan_2693" class="text-dark" target="_blank">Telegram</a>
+                <a href="https://www.facebook.com/pavankumarreddy.mukkara" target="_blank" class="text-dark">Facebook</a>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+<div align="center">
 <div class="row col-sm-12" id="footer" style="margin-top: 15px;" align="center">
     <div class="col-sm-3 text-left ml-5">
         <h6>QuickLinks</h6>
@@ -48,6 +102,7 @@
         <p>M.Pavan Kumar Reddy</p>
         <p> &copy;All Rights Reserved.</p>
     </div>
+</div>
 </div>
 </div>
 <script src="../JavaScript/HomePageScript.js"/>
