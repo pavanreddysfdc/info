@@ -1,0 +1,144 @@
+body{
+    margin:0;
+    background-color:whitesmoke;
+}
+
+p{
+    color:teal;
+}
+
+h3{
+    color:gray;
+}
+
+h2{
+    color:whitesmoke;
+}
+
+
+/* ----------Aside bar navigation element (aside bar, Anchor tag, image tag) styles-----------*/
+header a{
+    text-decoration: none;
+    color:black;
+    margin-top: 10px;
+    display:block;
+}
+header a:hover{
+    color:teal;
+    text-decoration: none;
+    display:block;
+}
+
+
+/*--------------end of image animation------------*/
+
+/*------------end of aside bar-----------*/
+
+
+
+
+/*----------------- Education article-----------*/
+
+
+#Education table td{
+    text-align: justify;
+}
+#Education td:hover p,#Skills article:hover,#Certifications article:hover,#Projects article:hover {
+    transform:TranslateY(-0px);
+    cursor: pointer;
+    color: black;
+    padding:20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px black;
+
+}
+
+/*----------End of Education article-----------*/
+
+/*----------Skills Article---------*/
+#Skills article{
+    border: 2px solid black;
+    padding:10px;
+    border-radius: 25px;
+
+}
+/*#Skills article:hover{
+    transform:skewX(5deg);
+    padding:10px;
+    margin:10px;
+    font-size: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 30px white;
+    cursor: pointer;
+}*/
+#Skills article:hover p{
+    color:black;
+}
+
+/*----------End of Skills article--------*/
+
+/*----------------Certifications Article---------*/
+
+#Certifications article{
+    border: 2px solid black;
+    padding:10px;
+    border-radius: 25px;
+}
+/*#Certifications article:hover{
+    transform:skewX(5deg);
+    padding:10px;
+    margin:10px;
+    font-size: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 30px white;
+}*/
+#Certifications article:hover p{
+    color:black;
+}
+
+/*------------End of Certifications Article------*/
+
+/*----------Projects Article----------*/
+#Projects article{
+    border: 2px solid black;
+    padding:10px;
+    border-radius: 25px;
+}
+/*#Projects article:hover{
+    transform:skewX(5deg);
+    padding:10px;
+    margin:10px;
+    font-size: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 30px white;
+}*/
+#Projects article:hover p{
+    color:black;
+}
+article p a{
+    color:crimson;
+}
+h2,th{
+    color:black;
+}
+#followlinks a,#footer a{
+    display: block;
+    font-size: 14px;
+    color:whitesmoke;
+}
+#footer{
+    background-color: darkslategrey;
+    padding:10px;
+}
+
+#footer a:hover{
+    color:cornsilk;
+    text-decoration: none;
+
+}
+
+#footer p{
+    font-size: 20px;
+    font-family: chiller;
+    color:whitesmoke;;
+}
